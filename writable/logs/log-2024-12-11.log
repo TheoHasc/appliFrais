@@ -1,0 +1,262 @@
+INFO - 2024-12-11 09:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 09:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 09:48:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-11 09:48:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'lvillachane')
+ 3 APPPATH\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+ 4 APPPATH\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:09:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-11 10:09:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'lvillachane')
+ 3 APPPATH\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+ 4 APPPATH\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:17:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-11 10:17:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'lvillachane')
+ 3 APPPATH\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+ 4 APPPATH\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:17:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-11 10:17:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'lvillachane')
+ 3 APPPATH\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+ 4 APPPATH\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-12-11 10:22:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'lvillachane')
+#3 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+#4 P:\Documents\AP-SLAM\AppliFrais\applifrais\app\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+#5 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\AP-SLAM\AppliFrais\applifrais\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\AP-SLAM\AppliFrais\applifrais\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-11 10:22:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(30): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'lvillachane')
+ 3 APPPATH\Models\Authentif.php(60): App\Models\DataAccess->getVisiteur('lvillachane')
+ 4 APPPATH\Controllers\Anonyme.php(50): App\Models\Authentif->authentifier('lvillachane', 'jux7g')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-11 10:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-11 10:33:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Visiteur::$session is deprecated in APPPATH\Controllers\Visiteur.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Visiteur->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-12-11 10:33:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Visiteur::$session is deprecated in APPPATH\Controllers\Visiteur.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Visiteur->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-11 10:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
