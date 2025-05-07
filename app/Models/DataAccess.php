@@ -228,14 +228,19 @@ class DataAccess extends Model
 	 * @param $mois sous la forme aaaamm
 	 * @param $etat : le nouvel état de la fiche 
 	 */
-	public function updateEtatFiche($idVisiteur, $mois, $etat)
-	{
+	public function updateEtatFiche($idVisiteur, $mois, $etat, $motif = null)
+{
+    $builder = $this->db->table('fichefrais');
+    $data = [
+        'idEtat' => $etat,
+        'dateModif' => date('Y-m-d H:i:s'),
+        'commentaire' => $motif
+    ];
+    $builder->where('idVisiteur', $idVisiteur);
+    $builder->where('mois', $mois);
+    $builder->update($data);
+}
 
-		$req = "update fichefrais 
-						set idEtat = '$etat', dateModif = now() 
-						where fichefrais.idVisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
-		$this->db->simpleQuery($req);
-	}
 	public function getLesFichesSignees()
 	{
 		$req = "select idVisiteur, mois, montantValide, dateModif, id, libelle

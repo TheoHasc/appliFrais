@@ -41,3 +41,599 @@ in APPPATH\Controllers\Comptable.php on line 90.
  4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 08:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:00:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:00:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:00:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:02:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:02:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:03:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:03:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:17:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-07 09:17:30 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(246): CodeIgniter\Database\BaseConnection->query('select idVisite...')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\ActionsComptable.php(61): App\Models\DataAccess->getLesFichesSignees()
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Comptable.php(75): App\Models\ActionsComptable->getLesFichesVisiteurs()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Comptable->voirFichesFrais()
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(246): CodeIgniter\Database\BaseConnection->query('select idVisite...')
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\ActionsComptable.php(61): App\Models\DataAccess->getLesFichesSignees()
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Comptable.php(75): App\Models\ActionsComptable->getLesFichesVisiteurs()
+#5 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Comptable->voirFichesFrais()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-07 09:17:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: GET, Route: comptable/voirFichesFrais]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(246): CodeIgniter\Database\BaseConnection->query('select idVisiteur, mois, montantValide, dateModif, id, libelle
+		from  fichefrais 
+		inner join Etat on ficheFrais.idEtat = Etat.id 
+		where fichefrais.idEtat = \'CL\'
+		order by mois desc')
+ 3 APPPATH\Models\ActionsComptable.php(61): App\Models\DataAccess->getLesFichesSignees()
+ 4 APPPATH\Controllers\Comptable.php(75): App\Models\ActionsComptable->getLesFichesVisiteurs()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->voirFichesFrais()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:17:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:17:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-07 09:17:53 --> Error connecting to the database: mysqli_sql_exception: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#5 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-07 09:17:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'hidass')
+ 3 APPPATH\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+ 4 APPPATH\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLIy')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-07 09:18:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#5 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-07 09:18:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'hidass')
+ 3 APPPATH\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+ 4 APPPATH\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLIy')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-07 09:18:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#5 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-07 09:18:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'hidass')
+ 3 APPPATH\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+ 4 APPPATH\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLIy')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-07 09:19:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'applifrais'@'localhost' to database 'applifrais' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'applifrais', Object(SensitiveParameterValue), 'applifrais', 3306, '', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom,...', 'hidass')
+#3 P:\Documents\annee2\AP\applifraisTeam\app\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLI...')
+#5 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+#6 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-05-07 09:19:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+[Method: POST, Route: anonyme/seConnecter]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\DataAccess.php(33): CodeIgniter\Database\BaseConnection->query('select id, nom, prenom, login, mdp  
+						from visiteur 
+						where login=?', 'hidass')
+ 3 APPPATH\Models\Authentif.php(69): App\Models\DataAccess->getVisiteur('hidass')
+ 4 APPPATH\Controllers\Anonyme.php(55): App\Models\Authentif->authentifier('hidass', '7VKiUzuN0EwHwLIy')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Anonyme->seConnecter()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anonyme))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:20:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:20:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:20:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-05-07 09:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:40:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:40:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:40:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:44:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:46:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:46:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:46:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-07 09:46:46 --> mysqli_sql_exception: Unknown column 'commentaireRefus' in 'field list' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `fichefr...', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefr...')
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefr...')
+#3 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefr...', Array, false)
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'jyjtjtyj')
+#6 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'jyjtjtyj')
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+#9 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-05-07 09:46:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'commentaireRefus' in 'field list'
+[Method: POST, Route: comptable/refuserFiche/202501/a131]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 2 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'jyjtjtyj')
+ 4 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'jyjtjtyj')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 09:46:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'commentaireRefus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:46:46\', `commentaireRefus` = \'jyjtjtyj\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:46:46\', `commentaireRefus` = \'jyjtjtyj\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 4 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'jyjtjtyj')
+ 6 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'jyjtjtyj')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 09:46:46 --> [Caused by] mysqli_sql_exception: Unknown column 'commentaireRefus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:46:46\', `commentaireRefus` = \'jyjtjtyj\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:46:46\', `commentaireRefus` = \'jyjtjtyj\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:46:46\', `commentaireRefus` = \'jyjtjtyj\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 5 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'jyjtjtyj')
+ 7 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'jyjtjtyj')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:47:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:47:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:47:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-05-07 09:47:55 --> mysqli_sql_exception: Unknown column 'commentaireRefus' in 'field list' in P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 P:\Documents\annee2\AP\applifraisTeam\system\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `fichefr...', 0)
+#1 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefr...')
+#2 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefr...')
+#3 P:\Documents\annee2\AP\applifraisTeam\system\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefr...', Array, false)
+#4 P:\Documents\annee2\AP\applifraisTeam\app\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 P:\Documents\annee2\AP\applifraisTeam\app\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'htrhrt')
+#6 P:\Documents\annee2\AP\applifraisTeam\app\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'htrhrt')
+#7 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+#8 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+#9 P:\Documents\annee2\AP\applifraisTeam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 P:\Documents\annee2\AP\applifraisTeam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 P:\Documents\annee2\AP\applifraisTeam\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-05-07 09:47:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'commentaireRefus' in 'field list'
+[Method: POST, Route: comptable/refuserFiche/202501/a131]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 2 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'htrhrt')
+ 4 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'htrhrt')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 09:47:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'commentaireRefus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:47:55\', `commentaireRefus` = \'htrhrt\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:47:55\', `commentaireRefus` = \'htrhrt\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 4 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 5 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'htrhrt')
+ 6 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'htrhrt')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-07 09:47:55 --> [Caused by] mysqli_sql_exception: Unknown column 'commentaireRefus' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:47:55\', `commentaireRefus` = \'htrhrt\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:47:55\', `commentaireRefus` = \'htrhrt\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `fichefrais` SET `idEtat` = \'RF\', `dateModif` = \'2025-05-07 09:47:55\', `commentaireRefus` = \'htrhrt\'
+WHERE `idVisiteur` = \'a131\'
+AND `mois` = \'202501\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2508): CodeIgniter\Database\BaseConnection->query('UPDATE `fichefrais` SET `idEtat` = :idEtat:, `dateModif` = :dateModif:, `commentaireRefus` = :commentaireRefus:
+WHERE `idVisiteur` = :idVisiteur:
+AND `mois` = :mois:', [...], false)
+ 5 APPPATH\Models\DataAccess.php(241): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Models\ActionsComptable.php(93): App\Models\DataAccess->updateEtatFiche('a131', '202501', 'RF', 'htrhrt')
+ 7 APPPATH\Controllers\Comptable.php(96): App\Models\ActionsComptable->refuserFicheFrais('202501', 'a131', 'htrhrt')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Comptable->refuserFiche('202501', 'a131')
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comptable))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:48:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-05-07 09:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-07 09:48:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Comptable::$session is deprecated in APPPATH\Controllers\Comptable.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Comptable->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
