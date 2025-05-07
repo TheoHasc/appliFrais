@@ -230,6 +230,7 @@ class DataAccess extends Model
 	 */
 	public function updateEtatFiche($idVisiteur, $mois, $etat)
 	{
+
 		$req = "update fichefrais 
 						set idEtat = '$etat', dateModif = now() 
 						where fichefrais.idVisiteur ='$idVisiteur' and fichefrais.mois = '$mois'";
@@ -247,17 +248,17 @@ class DataAccess extends Model
 		return $lesFiches;
 	}
 
-	public function ajouterMotifRefus($idComptable, $mois, $motif)
-	{
-		$sql = "UPDATE fichefrais SET commentaireRefus = :motif:, dateModif = NOW() 
-            WHERE idVisiteur = :idComptable: AND mois = :mois:";
+	// public function ajouterMotifRefus($idComptable, $mois, $motif)
+	// {
+	// 	$sql = "UPDATE fichefrais SET commentaireRefus = :motif:, dateModif = NOW() 
+    //         WHERE idVisiteur = :idComptable: AND mois = :mois:";
 
-		$this->db->query($sql, [
-			'idComptable' => $idComptable,
-			'mois' => $mois,
-			'motif' => $motif
-		]);
-	}
+	// 	$this->db->query($sql, [
+	// 		'idComptable' => $idComptable,
+	// 		'mois' => $mois,
+	// 		'motif' => $motif
+	// 	]);
+	// }
 	/**
 	 * Obtient toutes les fiches (sans détail) d'un visiteur donné 
 	 * 

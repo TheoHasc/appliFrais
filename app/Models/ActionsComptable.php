@@ -88,10 +88,10 @@ class ActionsComptable extends Model {
     $this->dao->updateEtatFiche($idVisiteur, $mois, 'VA'); // 'VA' = Validée
 }
 
-public function refuserFicheFrais($mois, $motif)
+public function refuserFicheFrais($mois, $idVisiteur,$motif)
 {
-    $this->dao->updateEtatFiche($this->idVisiteur, $mois, 'RF'); // 'RF' = Refusée
-    $this->dao->ajouterMotifRefus($this->idVisiteur, $mois, $motif);
+    $this->dao->updateEtatFiche($idVisiteur, $mois, $motif, 'RF'); // 'RF' = Refusée
+   
 }
 
 	/**

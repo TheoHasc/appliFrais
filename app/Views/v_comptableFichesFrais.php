@@ -31,7 +31,8 @@
 				// Vérifie si la fiche peut être validée ou refusée (modifier la condition si besoin)
 				if ($uneFiche['id'] == 'CL') {
 					$valLink = anchor( 'comptable/validerFiche/'.$uneFiche['mois'].'/'.$uneFiche['idVisiteur'],  'Valider', 'title="Valider la fiche" onclick="return confirm(\'Voulez-vous vraiment valider cette fiche ?\');"');
-					$refLink = anchor('comptable/refuserFiche/' . $uneFiche['mois'], 'Refuser', 'title="Refuser la fiche" onclick="return confirm(\'Voulez-vous vraiment refuser cette fiche ?\');"');
+					$refLink = anchor('comptable/refuserFiche/' . $uneFiche['mois'] . '/' . $uneFiche['idVisiteur'], 'Refuser', 'title="Refuser la fiche" onclick="return confirm(\'Voulez-vous vraiment refuser cette fiche ?\');"'
+					);
 				}
 
 				echo

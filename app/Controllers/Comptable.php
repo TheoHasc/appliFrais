@@ -87,15 +87,14 @@ public function validerFiche($mois,$idVisiteur )
     return $this->lesFiches("La fiche $mois du visiteur $idVisiteur a été validée.");
 }
 
-public function refuserFiche($mois)
+public function refuserFiche($mois,$idVisiteur,$motif)
 {
-    $motif = $this->request->getPost('motif'); // Récupérer le motif du refus
+	$motif = $this->request->getPost('motif'); // Récupérer le motif du refus
     if (empty($motif)) {
-        return $this->lesFiches("Veuillez fournir un motif pour refuser la fiche.");
-    }
+        return $this->lesFiches("Veuillez fournir un motif pour refuser la fiche.");}
 
-    $this->actComptable->refuserFicheFrais($mois, $motif);
-    return $this->lesFiches("La fiche du mois $mois a été refusée avec le motif : $motif.");
+    $this->actComptable->refuserFicheFrais($mois,$idVisiteur,$motif);
+    return $this->lesFiches("La fiche du mois $mois a été refusée avec le motif :$motif");
 }
 
 	/**

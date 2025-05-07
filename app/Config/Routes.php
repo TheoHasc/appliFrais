@@ -29,6 +29,6 @@ $routes->get('/comptable/seDeconnecter', 'Comptable::SeDeconnecter');
 
 // 1. Modifier la route pour accepter 2 paramètres
 $routes->get('/comptable/validerFiche/(:num)/(:alphanum)', 'Comptable::validerFiche/$1/$2');
-$routes->get('/comptable/refuserFiche/(:num)', 'Comptable::refuserFiche/$1');
+$routes->get('/comptable/refuserFiche/(:num)/(:alphanum)/(:alphanum)', 'Comptable::refuserFiche/$1/$2/$3');
 
 
